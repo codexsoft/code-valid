@@ -1,0 +1,36 @@
+{
+    "name": "codexsoft/code-valid",
+    "license": "MIT",
+    "description": "Base class for organizing value validation via reflection",
+    "authors": [
+        {
+            "name": "Dmitriy V Kozubskiy",
+            "email": "kozubsky@inbox.ru",
+            "homepage": "http://codexsoft.ru/",
+            "role": "Maintainer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/codexsoft/code-valid/issues",
+        "source": "https://github.com/codexsoft/code-valid"
+    },
+    "require": {
+        "php": "^7.2.0",
+        "ext-mbstring": "*",
+        "codexsoft/code-classes": "^1.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6",
+        "roave/security-advisories": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "CodexSoft\\Code\\Valid\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "": ["vendor/", "tests/unit/"]
+        }
+    }
+}
