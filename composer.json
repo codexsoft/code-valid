@@ -15,7 +15,7 @@
         "source": "https://github.com/codexsoft/code-valid"
     },
     "require": {
-        "php": "^7.2.0",
+        "php": "^7.2|^8",
         "ext-mbstring": "*",
         "codexsoft/code-classes": "^1.0.0"
     },
